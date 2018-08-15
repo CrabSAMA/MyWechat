@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/qunliao"
+        android:title="发起群聊"
+        android:icon="@drawable/icon_menu_group"
+        />
+    <item
+        android:id="@+id/tianjia"
+        android:title="添加朋友"
+        android:icon="@drawable/icon_menu_addfriend"/>
+    <item
+        android:id="@+id/saoyisao"
+        android:title="扫一扫"
+        android:icon="@drawable/icon_menu_sao"/>
+    <item
+        android:id="@+id/money"
+        android:title="收付款"/>
+</menu>

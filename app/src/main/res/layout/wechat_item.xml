@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:id="@+id/wechat_layout">
+
+    <ImageView
+        android:id="@+id/wechat_image"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_me_money"/>
+
+    <TextView
+        android:id="@+id/wechat_name"
+        android:text="NIHAO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/wechat_image"
+        android:textSize="17dp"
+        android:textColor="#000"/>
+
+    <TextView
+        android:id="@+id/wechat_message"
+        android:layout_toRightOf="@id/wechat_image"
+        android:layout_below="@id/wechat_name"
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:text="emmm"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/message_time"
+        android:paddingTop="3dp"
+        android:gravity="right"
+        android:paddingRight="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="Time"/>
+
+
+</RelativeLayout>
+

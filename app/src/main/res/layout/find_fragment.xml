@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="#EBEBEB"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:id="@+id/friends"
+        >
+        <ImageView
+            android:padding="10dp"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pengyouquan"
+            android:src="@drawable/find_friends"
+            android:layout_marginLeft="5dp" />
+        <TextView
+            android:layout_toRightOf="@id/pengyouquan"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="朋友圈"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="#EBEBEB"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:id="@+id/sao"
+        >
+
+        <ImageView
+            android:padding="10dp"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/saoyisao"
+            android:src="@drawable/icon_de_saoyisao"
+            android:layout_marginLeft="5dp" />
+        <TextView
+            android:layout_toRightOf="@id/saoyisao"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="扫一扫"
+            android:textSize="15sp"
+            android:textColor="#000000" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#EBEBEB"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:id="@+id/yao"
+        >
+
+        <ImageView
+            android:padding="10dp"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/yaoyiyao"
+            android:src="@drawable/icon_de_yao"
+            android:layout_marginLeft="5dp" />
+        <TextView
+            android:layout_toRightOf="@id/yaoyiyao"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="摇一摇"
+            android:textSize="15sp"
+            android:textColor="#000000" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="#EBEBEB"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:id="@+id/fujin"
+        >
+
+        <ImageView
+            android:padding="10dp"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fujinderen"
+            android:src="@drawable/icon_de_nearby"
+            android:layout_marginLeft="5dp" />
+        <TextView
+            android:layout_toRightOf="@id/fujinderen"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="附近的人"
+            android:textSize="15sp"
+            android:textColor="#000000" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#EBEBEB"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:id="@+id/piaoliu"
+        >
+
+        <ImageView
+            android:padding="10dp"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/piaoliuping"
+            android:src="@drawable/icon_de_ping"
+            android:layout_marginLeft="5dp" />
+        <TextView
+            android:layout_toRightOf="@id/piaoliuping"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="漂流瓶"
+            android:textSize="15sp"
+            android:textColor="#000000" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="#EBEBEB"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:id="@+id/buy"
+        >
+
+        <ImageView
+            android:padding="10dp"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/gouwu"
+            android:src="@drawable/icon_de_shop"
+            android:layout_marginLeft="5dp" />
+        <TextView
+            android:layout_toRightOf="@id/gouwu"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="购物"
+            android:textSize="15sp"
+            android:textColor="#000000" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#EBEBEB"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:id="@+id/game"
+        >
+
+        <ImageView
+            android:padding="7dp"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/youxi"
+            android:src="@drawable/icon_de_game"
+            android:layout_marginLeft="9.5dp" />
+        <TextView
+            android:layout_toRightOf="@id/youxi"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="游戏"
+            android:textSize="15sp"
+            android:textColor="#000000" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#EBEBEB"/>
+
+</LinearLayout>
